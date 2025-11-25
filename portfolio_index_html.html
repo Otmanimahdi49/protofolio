@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع شخصي لعرض أعمالي ومهاراتي في التصميم والبرمجة">
+    <meta name="keywords" content="مطور ويب, مصمم, برمجة, تصميم مواقع">
+    <title>WebCraft</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+<header class="header" role="banner">
+    <nav class="nav" aria-label="القائمة الرئيسية">
+        <div class="nav-container">
+
+            <!-- هنا الأزرار أصبحوا في مكان الشعار -->
+            <ul class="nav-menu" id="nav-menu" role="menubar">
+                <li class="nav-item" role="none">
+                    <a href="#home" class="nav-link" role="menuitem">الرئيسية</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#about" class="nav-link" role="menuitem">عنّي</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#projects" class="nav-link" role="menuitem">المشاريع</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#services" class="nav-link" role="menuitem">الخدمات</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#consom" class="nav-link" role="menuitem">الباقة</a>
+                </li>
+                <li class="nav-item" role="none">
+                    <a href="#contact" class="nav-link" role="menuitem">اتصل بي</a>
+                </li>
+            </ul>
+
+            <!-- زر القائمة يبقى في الوسط -->
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- الشعار الآن في الجهة الأخرى (مكان الأزرار) -->
+            <img src="image/logo.png" alt="شعار مهدي" class="logo-img">
+
+        </div>
+    </nav>
+</header>
+
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">مرحباً، أنا <span class="highlight">مهدي العثماني</span></h1>
+                    <p class="hero-description">أنا مهدي، طالب مغربي شغوف بتعلم المهارات الرقمية وتطوير المواقع. أعمل على تصميم واجهات بسيطة وعصرية، وإنشاء صفحات هبوط ومتاجر إلكترونية خفيفة وسريعة.
+أحب تحويل الأفكار إلى مواقع واضحة وسهلة الاستخدام، وأركز دائمًا على البساطة، التجربة الجيدة، وسرعة التصفح.
+أسعى لتطوير مهاراتي يوميًا عبر تنفيذ مشاريع حقيقية يمكن للعميل رؤيتها وتجربتها.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">أعمالي</a>
+                        <a href="#contact" class="btn btn-secondary">اتصل بي</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image/D.png" alt="صورة شخصية" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">عنّي</h2>
+                <div class="about-content">
+                    <div class="about-text">
+<p>الدولة: المغرب</p>
+<p>المجال: تصميم واجهات – تطوير مواقع ثابتة – Landing Pages – متاجر إلكترونية بسيطة</p>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills-title">مهاراتي</h3>
+                        <ul class="skills-list" role="list">
+                            <li class="skill-item">
+                                <span class="material-icons" aria-hidden="true">code</span>
+                                تطوير الويب
+                            </li>
+                            <li class="skill-item">
+                                <span class="material-icons" aria-hidden="true">palette</span>
+                                التصميم الإبداعي
+                            </li>
+                            <li class="skill-item">
+                                <span class="material-icons" aria-hidden="true">devices</span>
+                                التصميم المتجاوب
+                            </li>
+                            <li class="skill-item">
+                                <span class="material-icons" aria-hidden="true">speed</span>
+                                تحسين الأداء
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="container">
+                <h2 id="projects-title" class="section-title">مشاريعي</h2>
+                <div class="projects-grid">
+                    <article class="project-card" itemscope itemtype="https://schema.org/CreativeWork">
+                        <div class="project-image">
+                            <img src="assets/project1.jpg" alt="مشروع موقع تجارة إلكترونية" itemprop="image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title" itemprop="name">موقع تجارة إلكترونية</h3>
+                            <p class="project-description" itemprop="description">تصميم وتطوير متجر إلكتروني متكامل مع نظام دفع آمن.</p>
+                            <a href="#" class="btn btn-outline" itemprop="url">عرض المشروع</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" itemscope itemtype="https://schema.org/CreativeWork">
+                        <div class="project-image">
+                            <img src="assets/project2.jpg" alt="تطبيق إدارة المهام" itemprop="image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title" itemprop="name">تطبيق إدارة المهام</h3>
+                            <p class="project-description" itemprop="description">تطبيق ويب لإدارة المهام اليومية بميزات متقدمة.</p>
+                            <a href="#" class="btn btn-outline" itemprop="url">عرض المشروع</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" itemscope itemtype="https://schema.org/CreativeWork">
+                        <div class="project-image">
+                            <img src="assets/project3.jpg" alt="منصة تعليمية" itemprop="image">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title" itemprop="name">منصة تعليمية</h3>
+                            <p class="project-description" itemprop="description">منصة تعليمية تفاعلية مع نظام إدارة محتوى متكامل.</p>
+                            <a href="#" class="btn btn-outline" itemprop="url">عرض المشروع</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+<!-- تسعيرات الخدمات تقريبية وقابلة للتغيير بناءً على متطلبات المشروع. -->
+  <section id="services" class="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">الخدمات</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span class="material-icons" aria-hidden="true">web</span>
+                        </div>
+                        <h3 class="service-title">تطوير متاجر الكترونية </h3>
+                        <p class="service-description">تصميم وتطوير متاجرالكترونية احترافية متجاوبة وسريعة.</p>
+                
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span class="material-icons" aria-hidden="true">design_services</span>
+                        </div>
+                        <h3 class="service-title">تصميم UI/UX</h3>
+                        <p class="service-description">تصميم واجهات متاجر الكترونية جذابة وسهلة الاستخدام.</p>
+                        
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <span class="material-icons" aria-hidden="true">support</span>
+                        </div>
+                        <h3 class="service-title">الصيانة والدعم</h3>
+                        <p class="service-description">خدمات صيانة دورية ودعم فني مستمر.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+       <!-- Updated Services Packages Section -->
+<section id="pricing-packages" class="services enhanced-pricing" aria-labelledby="pricing-title">
+    <div class="container">
+        <h2 id="pricing-title" class="section-title">الباقات</h2>
+        <div class="services-grid">
+
+            <!-- باقة البداية -->
+            <div class="service-card premium-card">
+                <div class="badge">الأكثر مناسبة</div>
+                <h3 class="service-title"> باقة البداية — <span class="price">29.99 دولار</span></h3>
+                <ul class="service-list">
+                    <li>متجر بسيط بواجهة منظمة</li>
+                    <li>إضافة حتى 10 منتجات</li>
+                    <li>صفحة رئيسية + صفحة المنتجات</li>
+                    <li>ألوان وهوية أساسية</li>
+                    <li>دعم لمدة 3 أيام بعد التسليم</li>
+                </ul>
+            </div>
+
+            <!-- باقة الاحتراف -->
+            <div class="service-card premium-card highlight">
+                <div class="badge popular">الأكثر طلباً</div>
+                <h3 class="service-title"> باقة الاحتراف — <span class="price main">49.99 دولار</span></h3>
+                <ul class="service-list">
+                    <li>متجر احترافي كامل</li>
+                    <li>إضافة حتى 30 منتج</li>
+                    <li>تصميم واجهة متقدمة</li>
+                    <li>صفحات (الرئيسية – المتجر – اتصل بنا – من نحن)</li>
+                    <li>ربط وسائل الأداء (إذا متاحة)</li>
+                    <li>تحسين سرعة المتجر</li>
+                    <li>دعم لمدة أسبوع</li>
+                </ul>
+            </div>
+
+            <!-- باقة الأعمال -->
+            <div class="service-card premium-card">
+                <div class="badge">للأعمال الجادة</div>
+                <h3 class="service-title"> باقة الأعمال — <span class="price">79.99 دولار</span></h3>
+                <ul class="service-list">
+                    <li>متجر كامل بمظهر احترافي جداً</li>
+                    <li>إضافة حتى 60 منتج</li>
+                    <li>هوية لونية خاصة + صور محسّنة</li>
+                    <li>إعداد كامل للتوصيل والأداء</li>
+                    <li>كتابة وصف احترافي لـ 10 منتجات</li>
+                    <li>دعم لمدة 14 يوم بعد التسليم</li>
+                    <li>تدريب بسيط للزبون للتحكم في اللوحة</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- Blog Section
+        <section id="blog" class="blog" aria-labelledby="blog-title">
+            <div class="container">
+                <h2 id="blog-title" class="section-title">آخر المقالات</h2>
+                <div class="blog-grid">
+                    <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+                        <div class="blog-image">
+                            <img src="assets/blog1.jpg" alt="أحدث trends في تطوير الويب" itemprop="image">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title" itemprop="headline">أحدث trends في تطوير الويب</h3>
+                            <p class="blog-excerpt" itemprop="description">استكشاف أحدث التقنيات والاتجاهات في عالم تطوير الويب.</p>
+                            <a href="#" class="blog-link" itemprop="url">اقرأ المزيد</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+                        <div class="blog-image">
+                            <img src="assets/blog2.jpg" alt="نصائح لتحسين أداء المواقع" itemprop="image">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title" itemprop="headline">نصائح لتحسين أداء المواقع</h3>
+                            <p class="blog-excerpt" itemprop="description">طرق عملية لتحسين سرعة وأداء مواقع الويب.</p>
+                            <a href="#" class="blog-link" itemprop="url">اقرأ المزيد</a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+                        <div class="blog-image">
+                            <img src="assets/blog3.jpg" alt="أهمية التصميم المتجاوب" itemprop="image">
+                        </div>
+                        <div class="blog-content">
+                            <h3 class="blog-title" itemprop="headline">أهمية التصميم المتجاوب</h3>
+                            <p class="blog-excerpt" itemprop="description">لماذا يعتبر التصميم المتجاوب ضرورياً في عصر الهواتف الذكية.</p>
+                            <a href="#" class="blog-link" itemprop="url">اقرأ المزيد</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+ -->
+        <!-- Contact Section -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">اتصل بي</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="material-icons" aria-hidden="true">email</span>
+                            <div>
+                                <h3>البريد الإلكتروني</h3>
+                                <p>otmanimahdi49@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="material-icons" aria-hidden="true">phone</span>
+                            <div>
+                                <h3>الهاتف</h3>
+                                <p>+212777460903</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" class="form-input" required aria-required="true">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" class="form-input" required aria-required="true">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                             <label for="phone" class="form-label">رقم الهاتف</label>
+                             <input type="tel" id="phone" name="phone" class="form-input" required aria-required="true">
+                             <span class="error-message" id="phone-error"></span>
+                        </div>
+
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">الرسالة</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required aria-required="true"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">إرسال الرسالة</button>
+                        <div id="form-message" class="form-message" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="https://wa.me/212777460903" class="whatsapp-btn" target="_blank" aria-label="تواصل واتساب">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+    </a>
+
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">موقعي الشخصي</h3>
+                    <p>أعمل على إنشاء حلول رقمية مبتكرة تلبي احتياجات العملاء.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">عنّي</a></li>
+                        <li><a href="#projects">المشاريع</a></li>
+                        <li><a href="#contact">اتصل بي</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">وسائل التواصل</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.instagram.com/webcraf_ma" aria-label="إنستجرام">إنستغرام</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 مهدي العتماني. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
